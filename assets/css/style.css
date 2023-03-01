@@ -10,18 +10,39 @@ html{
     font-size: 62.5%;
 }
 header{
-    background-image:url("../images/hero.jpg");
+
     height: 100vh;
     background-size: cover;
-    padding-top: 25rem;
+    padding-top: 5rem;
     padding-left: 9.2rem;
+
+}
+header *{
+    transform: scaleX(-1);
+}
+.image{
+    background-image:url("../image/hero.jpg");
+    transform: scaleX(-1);
+}
+.invert{
+    transform: scaleX(-1);
 }
 h1{
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 900;
     color: #FFF;
     font-family: 'Poppins';
+    padding-left: 2rem;
 
+
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFF;
+    padding-left: 2rem;
+    width: 90vw;
+    padding-right: 70%;
 
 }
 
@@ -29,4 +50,10 @@ span{
     font-family:'Montserrat';
     font-size: 4rem;
     color: #fff;
+}
+
+.ball{
+    width: 10vw;
+    margin-left: 50rem;
+    transform: scaleX(-1);
 }
