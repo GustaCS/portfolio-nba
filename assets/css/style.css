@@ -5,28 +5,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Montserrat';
 }
 html{
     font-size: 62.5%;
 }
 header{
-
     height: 100vh;
     background-size: cover;
     padding-top: 5rem;
     padding-left: 9.2rem;
+    background-image:url("../image/hero.jpg");
 
 }
-header *{
-    transform: scaleX(-1);
-}
-.image{
-    background-image:url("../image/hero.jpg");
-    transform: scaleX(-1);
-}
-.invert{
-    transform: scaleX(-1);
-}
+
 h1{
     font-size: 6rem;
     font-weight: 900;
@@ -37,14 +29,14 @@ h1{
 
 }
 h2{
-    font-size: 3rem;
+    font-size: 1.9rem;
     font-weight: bold;
     color: #FFF;
-    padding-left: 2rem;
-    width: 90vw;
-    padding-right: 70%;
-
 }
+
+a{text-decoration: none;
+color: #A54119;
+font-size: 200rem;}
 
 span{
     font-family:'Montserrat';
@@ -53,7 +45,101 @@ span{
 }
 
 .ball{
-    width: 10vw;
-    margin-left: 50rem;
-    transform: scaleX(-1);
+    width: 4vw;
+    margin-left: 2rem;
+    float: left;
+}
+
+.text_hero{
+    width: 26.5vw;
+    height: 25vh;
+    margin-left: 2rem;
+}
+.times2{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+a{
+    font-size: 4rem;
+}
+#botao_inicial{
+    width: 28vw;
+
+}
+.button{
+    font-size: 2rem;
+    float: left;
+    padding-top:1.5rem;
+}
+.space{
+    margin-top: 2rem;
+}
+#equipe{
+    font-size: 5rem ;
+}
+
+#times{
+    height: 100vh;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-left: 9.2rem;
+    background-color: black;
+}
+
+#historia{
+    height: 100vh;
+    background-size: cover;
+    background-image:url("../image/hero_inverso.jpg");
+}
+.blur{
+    background-color: rgba(0, 0, 0, 0.272);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+}
+
+#imagem_logos{
+    background-color: red;
+    width: 85vw;
+    height: 70vh;
+
+}
+.logo{
+    height: 28vh;
+    margin-left: 3rem;
+}.teste{
+    color: #fff;
+
+}
+.teste *{
+    color: #FFF;
+}
+.next{
+    padding-left: 80rem;
+    margin-top: 5rem;
+    height: 8vh;
+}
+.next *{
+    color: #FFF;
+}
+.next1{
+    margin-top: 3rem;
+    height: 8vh;
+}
+.history_title{
+    float:right;
+    margin-right: 2rem;
+}
+
+.history_left{
+    margin-right: 2rem;
+    float: right;
+    padding-left: 70rem;
+    padding-top: 2rem;
+}
+
+.history_right{
+    float: left;
+    padding-left: 2rem;
+    padding-right: 70rem;
 }
