@@ -19,11 +19,17 @@ header{
 
 }
 
+:root{
+    --text-primary:#FFF;
+    --font-heading:'Poppins';
+    --font-default:'Monrserat';
+}
+
 h1{
     font-size: 6rem;
     font-weight: 900;
-    color: #FFF;
-    font-family: 'Poppins';
+    color: var(--text-primary);
+    font-family: var(--font-default);
     padding-left: 2rem;
 
 
@@ -105,8 +111,9 @@ a{
 
 }
 .logo{
-    height: 28vh;
+    height: 20vh;
     margin-left: 3rem;
+    margin-top: 15rem;
 }.teste{
     color: #fff;
 
@@ -136,10 +143,13 @@ a{
     float: right;
     padding-left: 70rem;
     padding-top: 2rem;
+    font-size:2.4rem;
+
 }
 
 .history_right{
     float: left;
     padding-left: 2rem;
     padding-right: 70rem;
+    font-size:2.4rem;
 }
